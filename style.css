@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: 0.1fr 9.8fr 0.1fr;
+  height: 98vh;
+  position: static;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-size: 1.438rem;
+  background-color: #f3f5f8;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+main {
+  font-family: "Inter", serif;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.notetitle {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.3px;
+  color: #0e121b;
+}
+.tagtab {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.tags {
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: -0.2px;
+  background-color: #e0e4ea;
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: #0e121b;
+}
+.date {
+  color: #2b303b;
+  font-weight: 400px;
+  font-size: 0.75rem;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+hr {
+  margin-bottom: 10px;
+  border: 1px solid #e0e4ea;
+}
+button {
+  background: none;
+  border: none;
+}
+.addnote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #335cff;
+  box-shadow: 0px 7px 11px 0px #cacfd8b2;
+  border-radius: 9999px;
+  width: 40px;
+  height: 40px;
+}
+.btnpos {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  bottom: 60px;
+  left: 80%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+}
+.note {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
