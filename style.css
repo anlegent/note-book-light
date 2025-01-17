@@ -103,3 +103,38 @@ ul {
 a {
   text-decoration: none;
 }
+
+.noteedits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.goback {
+  display: flex;
+}
+.savebtn {
+  color: #335cff;
+}
+.editcolor {
+  color: #525866;
+}
+.innerinfo {
+  display: flex;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infocontent {
+  display: flex;
+  position: relative;
+  right: 100px;
+}
+.notefontcolor {
+  color: #232530;
+}
+.infocolor {
+  color: #2b303b;
+}
